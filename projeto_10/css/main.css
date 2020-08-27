@@ -1,0 +1,33 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Roboto';
+}
+
+.container{
+   margin: 0 auto;
+   padding: 0 2%;
+   max-width: 1280px;
+}
+
+input[type=submit],
+input[type=text],
+input[type=email],
+textarea{
+	appearance:none;
+	-webkit-appearance:none;
+}
+
+body{
+   overflow-x: hidden;
+   background-color: white;
+}
+
+a{
+   text-decoration: none;
+}
+
+li{
+   list-style: none;
+}

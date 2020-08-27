@@ -1,0 +1,134 @@
+@media screen and (max-width:1200px){
+   footer .container{
+      flex-direction: column;
+   }
+
+   .box-footer h2{
+      text-align: center;
+      
+   }
+
+   .box-footer p{
+      margin-bottom: 10px;
+   }
+}
+@media screen and (max-width:1120px){
+   .servicos_single{
+      margin: 10px auto;
+   }
+
+   .empresas_container{
+      display: flex;
+     flex-direction: column;
+     margin: 0 53%;
+   }
+
+   .parcerias h2{
+      margin-bottom: 30px;
+   }
+   .empresas_container img{
+      margin-top: 10px ;
+   }
+  }
+
+@media screen and (max-width:780px){
+   .desktop{
+      display: none;
+   }
+
+   .mobile{
+      display: flex;
+      align-content: center;
+      justify-content: space-between;
+
+      padding: 20px;
+      width: 100%;
+
+      position: relative;
+
+   }
+
+   .mobile .logo{
+      position: relative;
+      z-index: 2;
+   }
+
+   .mobile ul{
+      position: absolute;
+      width: 100%;
+      background: #31475e;
+      padding: 70px 0 30px 0;
+      left: 0;
+      top: 0;
+      text-align: center;
+      display: none;
+    
+   }
+
+   .mobile li{
+      margin-top:10px;
+   }
+
+   .mobile li.btn-nav{
+      display: inline-block;
+   }
+
+   .mobile a{
+      display: block;
+      color: white;
+   }
+
+   .mobile a:hover{
+      opacity: 0.85;
+   }
+
+   .mobile h3 i{
+      cursor: pointer;
+      position:relative;
+      z-index: 2;
+      color: white;
+      font-size: 23px;
+   }
+
+   .descricao{
+      width: 100%;
+      text-align: center;
+      margin-bottom: 20px;
+   }
+
+   .mockup{
+      width: 100%;
+   }
+   .empresas_container{
+     margin: 0 57%;
+   }
+
+}
+
+
+@media screen and (max-width:600px){
+
+ 
+   .chamada button{
+      margin-left: 25px;
+      margin-top: 10px;
+   }
+
+   .descricao2 .box{
+      max-width: 400px;
+
+   }
+
+   .descricao2 .box p{
+      font-size:15px;
+   }
+
+}
+
+@media screen and (max-width:510px){
+   .chamada h2{
+      font-size: 32px;
+   }
+  
+}
+

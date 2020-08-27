@@ -1,0 +1,405 @@
+header{
+   background-image: url('/images/bg.jpg');
+   background-size: cover;
+   background-position: center;
+
+   width: 100%;
+   min-height: 450px;
+
+
+}
+
+.desktop{
+   display: flex;
+   justify-content: space-between;
+   align-content: center;
+
+   padding: 20px;
+}
+
+.logo{
+   background-image: url('/images/logo.png');
+   background-size: 100% 100%;
+
+   width: 132px;
+   height: 20px;
+
+}
+
+.desktop ul{
+   display: flex;
+}
+
+.desktop li{
+   margin-left: 20px;
+}
+
+.desktop li a{
+   color: white;
+}
+
+.desktop li a:hover{
+   opacity: 0.85;
+}
+
+li.btn-nav{
+   border: 1px solid white;
+   border-radius: 20px;
+
+   padding: 3px 8px;
+
+   position: relative;
+   top: -5px;
+}
+
+.mobile{
+   display: none;
+}
+
+.chamada{
+   margin-top: 60px;
+   margin-left: 28px;
+} 
+
+.chamada h2{
+   font-size: 42px;
+   color: white;
+   font-weight: normal;
+
+   margin-bottom: 10px;
+}
+
+.chamada p{
+   font-size: 17px;
+   color: white;
+
+   max-width: 600px;
+   margin-bottom: 30px;
+}
+
+.chamada input[type=email]{
+   border: 0;
+   border-radius: 20px;
+
+   height: 40px;
+   width: 250px;
+   padding-left: 15px;
+
+}
+
+.chamada input[type=email]:focus{
+   outline: none;
+}
+
+.chamada form button{
+   cursor: pointer;
+   border: 0;
+   border-radius: 20px;
+
+   height: 40px;
+   width: 200px;
+   background-color: #ff5f27;
+   color: white;
+}
+
+.chamada form button:hover{
+   background-color: #f64d0f;
+}
+
+.chamada form button:focus{
+   outline: none;
+}
+
+/**/
+
+.information{
+   max-width: 680px;
+   margin: 30px auto 100px auto;
+}
+
+.information p{
+   font-size: 21px;
+   font-weight: lighter;
+   text-align: center;
+}
+
+/**/
+
+.sobre{
+   display: flex;
+   align-items: center;
+  
+   
+}
+
+.sobre .container{
+   display: flex;
+   max-width: 980px;
+   flex-wrap: wrap;
+  
+
+}
+
+.descricao{
+   width: 55%;
+  
+}
+
+.descricao h2{
+   font-weight: normal;
+   color: #31475e;
+   font-size: 22px;
+   line-height: 32px;
+}
+
+.descricao p{
+   margin-top: 15px;
+   font-size: 15px;
+   color: #6a7c92;
+   line-height: 25px;
+
+}
+
+.mockup {
+   width: 40%;
+}
+
+.mockup img{
+   width: 100%;
+}
+
+.descricao2{
+   margin-top: 100px;
+   position: relative;
+   width: 100%;
+   height: 460px;
+   background-image: url('/images/bg2.jpg');
+   background-repeat: no-repeat;
+}
+
+.box{
+   position: absolute;
+   right: 0;
+   top: 160px;
+  background-color:white;
+  width: 500px;
+  height: 200px;
+  max-width: 600px;
+  -webkit-box-shadow: 0px 13px 9px 0px rgba(245,237,245,1);
+-moz-box-shadow: 0px 13px 9px 0px rgba(245,237,245,1);
+box-shadow: 0px 13px 9px 0px rgba(245,237,245,1);
+}
+
+.box p{
+   padding: 30px 50px 0px 50px;
+   font-size: 18px;
+   font-weight: lighter;
+   color: #31475e;
+}
+
+.box b{
+   font-weight: normal;
+}
+
+/***/
+.servicos > .container{
+   max-width: 1030px;
+}
+.servicos h2{
+   text-align: center;
+   font-size:22px;
+   font-weight: normal;
+   color: #31475e;
+}
+
+.servicos i{
+   color: #31475e;
+}
+
+.servicos_box{
+   display: flex;
+   align-content: center;
+   flex-wrap: wrap;
+   
+}
+
+.servicos_single{
+   
+   margin: 25px 10px;
+   max-width: 300px;
+
+   -webkit-box-shadow: 0px 7px 5px 0px rgba(222,215,222,1);
+-moz-box-shadow: 0px 7px 5px 0px rgba(222,215,222,1);
+box-shadow: 0px 7px 5px 0px rgba(222,215,222,1);
+   
+}
+
+.servicos_single h2{
+   font-size: 20px;
+   color: #31475e;
+   font-weight: normal;
+}
+
+.servicos_single p{
+   padding: 10px 10px;
+   color: #31475e;
+   line-height: 1.6;
+   font-size: 16px;
+   margin: 8px 0;
+   font-weight: lighter;
+}
+
+.servicos_single button{
+   display: inline-block;
+   border: 1px solid #31475e;
+   font-size: 14px;
+   border-radius: 20px;
+   padding: 6px 12px;
+   cursor: pointer;
+   background-color: transparent;
+   margin: 0 0 20px 10px;
+}
+
+.servicos_single a{
+   color: #31475e;
+}
+
+/****/
+
+.parcerias{
+   margin: 80px 0 50px 0;
+}
+
+.parcerias h2{
+   text-align: center;
+   font-size: 22px;
+   color: #31475e;
+   font-weight: normal;
+}
+
+.empresas_container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.empresas_container img{
+   margin: 40px 70px 20px 0;
+}
+
+/***/
+
+.contato > .container{
+   max-width: 900px;
+}
+
+.contato{
+   margin-bottom: 30px;
+}
+
+.contato h2{
+   text-align: center;
+   font-size: 22px;
+   color: #31475e;
+   font-weight: normal;
+   margin-bottom: 30px;
+}
+
+.contato form input[type=text]{
+   width: 100%;
+   height: 40px;
+   border-radius: 20px;
+   outline: none;
+   border: 1px solid #ebebeb;
+   padding-left: 10px;
+   margin-bottom: 6px;
+}
+
+.contato form input[type=email]{
+   width: 100%;
+   height: 40px;
+   border-radius: 20px;
+   outline: none;
+   border: 1px solid #ebebeb;
+   padding-left: 10px;
+   margin-bottom: 6px;
+}
+
+.contato form textarea{
+   width: 100%;
+   height: 120px;
+   resize: vertical;
+   border-radius: 15px;
+   padding: 10px;
+   border: 1px solid #ebebeb;
+   outline: none;
+   margin-bottom: 10px;
+   
+}
+
+.contato form input[type=submit]{
+   width: 130px;
+   height: 30px;
+   color: white;
+   border: 0;
+   border-radius: 30px;
+   background-color: #ff5f27;
+   box-shadow: 0 8px 20px 0 rgba(224, 224, 224, 0.5);
+   cursor: pointer;
+}
+
+.contato form input[type=submit]:hover{
+   background-color: #f64d0f;
+
+}
+
+/***/
+footer{
+   margin-top: 80px;
+}
+footer .container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   max-width: 80%;
+}
+
+
+
+.box-footer h2{
+   font-weight: normal;
+   font-size: 22px;
+   color: #31475e;
+}
+
+.box-footer p{
+   font-weight: lighter;
+   color: #31475e;
+   margin-top: 10px;
+   font-size: 15px;
+}
+
+.box-footer input[type=email]{
+   outline: none;
+   border-radius: 20px;
+   border: 1px solid #bfbfbf;
+   height: 43px;
+   max-width: 300px;
+   width: 86%;
+   padding: 10px 10px;
+   margin-top: 10px;
+
+}
+
+.box-footer button{
+   cursor: pointer;
+   font-size: 22px;
+   border: 0;
+   background-color: white;
+   color: #31475e;
+}
+
+
+
+
+
