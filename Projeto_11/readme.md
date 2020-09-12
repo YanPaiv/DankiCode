@@ -11,6 +11,9 @@ project 11 by danki code was the front-end of a landing page for a google play g
 
 
 <h2>Mobile<h2>
+  
+![projeto_11_mobile](https://user-images.githubusercontent.com/69093389/92999698-6bbffe00-f4f9-11ea-9aaa-15bbe3a11ade.gif)
+  
 
 
 this is the course link
